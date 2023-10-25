@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li>
+                    <a class="header__link" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#featured">Featured</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#work">Work</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#profiles">Profiles</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#contact">Contact</a>
+                </li>
+                <li class="header__line"></li>
+                <li>
+                    <button id="theme-toggle" class="header__sun">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                          </svg>     
+                    </button>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1XivplgPS55yRFcmN1gp60NsrjfOHCWI6/view?usp=sharing" class="header__resume btn">Resume</a>
+                </li>
+            </ul>
+            <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg> 
+            </button>
+        </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <nav>
+            <ul class="mobile-nav__menu">
+                <li>
+                    <a href="#about" class="mobile-nav__link">About</a>
+                </li>
+                <li>
+                    <a href="#featured" class="mobile-nav__link">Featured</a>
+                </li>
+                <li>
+                    <a href="#work" class="mobile-nav__link">Work</a>
+                </li>
+                <li>
+                    <a href="#profiles" class="mobile-nav__link">Profiles</a>
+                </li>
+                <li>
+                    <a href="#contact" class="mobile-nav__link">Contact</a>
+                </li>
+                <li class="mobile-nav__link-line"></li>
+                <li>
+                    <button id="theme-toggle" class="mobile-nav__sun">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                          </svg>     
+                    </button>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1XivplgPS55yRFcmN1gp60NsrjfOHCWI6/view?usp=sharing" class="mobile-nav__btn btn">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Navigation -->
+    <main>
+        <section class="hero container">
+            <h2 class="hero__subtitle">Hi, I'm <strong>Pavan Kalyan</strong> &#x1F44B;</h2>
+            <h1 class="hero__title">ML-Enthusiast<br> & <br> Problem Solver.</h1>
+            <p class="hero__description">I'm a passionate <strong>Machine Learning Enthusiast</strong> with a knack for solving <strong>complex problems</strong> and a deep-rooted love for technology. &#128640;</p>
+            <a href="mailto:vetlapavankalyan5@gmail.com" class="hero__btn btn">reach out</a>
+        </section>
+        <section class="section">
+            <img class="lazy loading" src="https://via.placeholder.com/1920x1080" data-src="/background.jpg" alt="background">
+        </section>
+        <section id="about" class="about container section">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">
+                    Hello there! I'm <strong>Pavan Kalyan</strong> Machine Learning in Visakhapatnam. As a dedicated problem solver, I thrive on challenges that demand innovative thinking. Whether it's debugging lines of code or devising creative solutions to intricate problems, I'm always ready to roll up my sleeves and tackle them head-on.
+                </p>
+                <p class="about__description">
+                    Currently pursuing 4th Year of Bachelor of Technology in Computer Science with Data Science at Gayatri Vidya Parishad College of Engineering, I'm on a mission to harness the power of data and machine learning to drive innovation.
+                </p>
+                <p class="about__description">
+                    I recently started learning System Design & Web Development.
+                </p>
+                <hr class="about__hr" />
+                <h3 class="about__subtitle">Skills & Technologies</h3>
+                <div class="about__ul-container">
+                    <ul class="about__ul">
+                        <li class="about__list">Operating Systems</li>
+                        <li class="about__list">Database Management Systems</li>
+                        <li class="about__list">C, C++</li>
+                        <li class="about__list">Java</li>
+                    </ul>
+                    <ul class="about__ul">
+                        <li class="about__list">Python</li>
+                        <li class="about__list">HTML</li>
+                        <li class="about__list">CSS</li>
+                        <li class="about__list">JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__img-wrapper">
+                <img class="about__img lazy loading" src="https://via.placeholder.com/640x720" data-src="/about.jpg" alt="about picture">
+            </div>
+        </section>
+        <section id="featured" class="featured container section">
+            <h3 class="featured__subtitle">
+                Featured Project
+            </h3>
+            <div class="featured__title-wrapper">
+                <h2 class="featured__title">
+                    Tic Tac Toe
+                </h2>
+                <a href="https://github.com/VetlaPavanKalyan/TicTacToeLive" class="btn">Source Code</a>
+                <a href="https://vetlapavankalyan.github.io/TicTacToeLive" class="featured__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                      </svg>                                   
+                </a>
+            </div>
+            <p class="featured__description">
+                Experience the thrill of Tic-Tac-Toe like never before with this project. Challenge yourself to this AI opponent powered by the <strong> Minimax algorithm </strong>, guaranteeing a formidable foe in every match. Whether you're a casual gamer or a seasoned player, this project offers the fundamental steps towards Game theory concept in AI. Get ready to master the ultimate Tic-Tac-Toe showdown!
+            </p>
+            <div class="featured__info-wrapper">
+                <div>
+                    <h3 class="featured__label">Technologies Used</h3>
+                    <ul class="featured__tech-stack">
+                        <li class="featured__info">HTML</li>
+                        <li class="featured__info">CSS</li>
+                        <li class="featured__info">JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="featured__label">Project Type</h3>
+                    <ul class="featured__tech-stack">
+                        <li class="featured__info">Game Theory</li>
+                        <li class="featured__info">Web Development Project</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="featured__label">Project Duration</h3>
+                    <p class="featured__info">September 2023 - October 2023</p>
+                </div>
+            </div>
+            <div class="featured__project-demo">
+                <h3 class="featured__title">
+                    DEMO
+                </h3>
+                <div class="featured__image-wrapper">
+                    <img src="https://via.placeholder.com/1000x485" data-src="/tictactoe.gif" alt="" class="featured__project-gif lazy loading">
+                </div>
+            </div>
+        </section>
+        <section id="work" class="work container section">
+            <h2 class="work__title">
+                projects
+            </h2>
+            <p class="work__description">
+                I'm well-versed in ML, DL, and AI algorithms, and I've recently started learning Front-End Development & System Design to broaden my skills. This diverse knowledge allows me to tackle various tech challenges. I'm eager to adapt and explore new horizons and contribute my solutions to the real world problems.
+            </p>
+            <div class="work__container">
+                <h2 class="work__project-title">Mumbai House Price Prediction</h2>
+                <div class="work__image1 work__project-img">
+                    <img class="lazy loading" src="https://via.placeholder.com/1125x978" data-src="/mumbai.png" alt="">
+                </div>
+                <div class="work__project work__content1">
+                    <h2 class="work__project-subtitle">Mumbai House Price Prediction</h2>
+                    <p class="work__project-description1">
+                        This project focusses on predicting house prices in Mumbai using Machine Learning.
+                    </p>
+                    <p class="work__project-description2">
+                        Collected data on House Prices in Mumbai, cleaned and Built a Linear Regression Model 
+                        on the cleaned data. Hosted the Model to web using HTML, CSS, JavaScript & Python-Flask.
+                    </p>
+                    <a href="https://vetlapavankalyan.github.io/MumbaiHousingProject/client/app.html" class="work__project-btn btn">Website</a>
+                </div>
+                <h2 class="work__project-title">Stock Price Prediction</h2>
+                <div class="work__image2 work__project-img">
+                    <img class="lazy loading" src="https://via.placeholder.com/1125x978" data-src="/stock.png" alt="">
+                </div>
+                <div class="work__project work__content2">
+                    <h2 class="work__project-subtitle">Stock Price Prediction</h2>
+                    <p class="work__project-description1">
+                        This project focusses on predicting the next 30 day closing stock price of GOOGLE using Deep Learning.
+                    </p>
+                    <p class="work__project-description2">
+                        Used an API to Collect the previous closing stock prices of GOOGLE, Trained and developed a Bi-Directional LSTM Model 
+                        on the closing stock price data. Used Python & Tensorflow frameworks in this project.
+                    </p>
+                    <a href="https://github.com/VetlaPavanKalyan/Stock-Price-Prediction" class="work__project-btn btn">Website</a>
+                </div>
+                <h2 class="work__project-title">Youtube Clone</h2>
+                <div class="work__image3 work__project-img">
+                    <img class="lazy loading" src="https://via.placeholder.com/1125x978" data-src="/youtube.png" alt="">
+                </div>
+                <div class="work__project work__content3">
+                    <h2 class="work__project-subtitle">Youtube Clone</h2>
+                    <p class="work__project-description1">
+                        This project focusses on building a basic YouTube Webpage (A Simple Clone).
+                    </p>
+                    <p class="work__project-description2">
+                        Used HTML, CSS for building the webpage, where I explored and implemented various CSS styles.
+                    </p>
+                    <a href="https://vetlapavankalyan.github.io/YouTube-Clone/" class="work__project-btn btn">Website</a>
+                </div>
+                <h2 class="work__project-title">Amazon Clone</h2>
+                <div class="work__image4 work__project-img">
+                    <img class="lazy loading" src="https://via.placeholder.com/1125x978" data-src="/amazon.png" alt="">
+                </div>
+                <div class="work__project work__content4">
+                    <h2 class="work__project-subtitle">Amazon Clone</h2>
+                    <p class="work__project-description1">
+                        This project focusses on building a fully functional Amazon Clone.
+                    </p>
+                    <p class="work__project-description2">
+                        Using Javascript built a fully functional Amazon Clone which works almost Identical to the real Amazon site.
+                    </p>
+                    <a href="#" class="work__project-btn btn">Website</a>
+                </div>
+            </div>
+        </section>
+        <section id="profiles" class="profiles container section">
+            <h2 class="profiles__title">
+                Social & Coding Profiles
+            </h2>
+            <div class="profiles__container">
+                <ul class="profiles__list">
+                    <li><a href="https://leetcode.com/vpavankalyan/" class="profiles__btn btn">Leetcode</a></li>
+                    <li><a href="https://auth.geeksforgeeks.org/user/vpavankalyan/" class="profiles__btn btn">GFG</a></li>
+                    <li><a href="https://www.codingninjas.com/studio/profile/vpavankalyan" class="profiles__btn btn">CodingNinjas</a></li>
+                    <li><a href="https://github.com/VetlaPavanKalyan" class="profiles__btn btn">GitHub</a></li>
+                </ul>
+                <ul class="profiles__list">
+                    <li><a href="https://www.linkedin.com/in/vpavankalyan" class="profiles__btn btn">LinkedIn</a></li>
+                    <li><a href="https://www.cloudskillsboost.google/public_profiles/e6fd3698-c0e3-4e0d-825b-3ccccd40465c" class="profiles__btn btn">GCP</a></li>
+                    <li><a href="https://twitter.com/VetlaPavan" class="profiles__btn btn">Twitter</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="contact container section">
+            <h2 class="contact__title">
+                Get in Contact
+            </h2>
+            <p class="contact__description">
+                Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible. &#127758; &#129535;
+            </p>
+            <a href="mailto:vetlapavankalyan5@gmail.com" target="_blank" class="contact__btn btn">Reach Out</a>
+        </section>
+    </main>
+    <footer class="footer container section">
+        <h3 class="footer__title">&#x26a1; Pavan Kalyan &#x26a1;</h3>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
