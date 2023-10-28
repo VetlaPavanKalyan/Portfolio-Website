@@ -16,6 +16,7 @@
 
 .profiles__list {
     list-style: none;
+    padding: 0 20px;
 }
 
 .profiles__btn {
@@ -31,7 +32,7 @@
     }
 
     .profiles__btn {
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
     }
 }
 
@@ -52,7 +53,7 @@
     }
 
     .profiles__btn {
-        font-size: var(--size-xl);
+        font-size: var(--size-lg);
     }
 }
 
@@ -63,7 +64,7 @@
     }
 
     .contact__btn {
-        font-size: var(--size-2xl);
+        font-size: var(--size-xl);
     }
 }
 

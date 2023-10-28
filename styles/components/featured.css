@@ -91,6 +91,11 @@
     background-color: rgba(46, 77, 107, 0.1);
 }
 
+.featured__btn {
+    font-size: var(--size-sm);
+    text-transform: capitalize;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .featured__subtitle {
@@ -114,6 +119,9 @@
         font-size: var(--size-lg);
     }
     .featured__info {
+        font-size: var(--size-base);
+    }
+    .featured__btn {
         font-size: var(--size-base);
     }
 }
@@ -152,6 +160,9 @@
     .featured__info {
         font-size: var(--size-lg);
     }
+    .featured__btn {
+        font-size: var(--size-lg);
+    }
 }
 
 /* xl */
@@ -177,6 +188,9 @@
         font-size: var(--size-2xl);
     }
     .featured__info {
+        font-size: var(--size-xl);
+    }
+    .featured__btn {
         font-size: var(--size-xl);
     }
 }
